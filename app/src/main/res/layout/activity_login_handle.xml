@@ -137,7 +137,8 @@
                 android:textColor="#00a4e2"
                 android:textSize="16dp"
                 android:text="立即注册"
-                android:id="@+id/register_button"/>
+                android:id="@+id/register_button"
+                android:onClick="register"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -147,7 +148,8 @@
                 android:textColor="#00a4e2"
                 android:textSize="16dp"
                 android:text="忘记密码"
-                android:id="@+id/forget_button"/>
+                android:id="@+id/forget_button"
+                android:onClick="forget"/>
         </LinearLayout>
     </RelativeLayout>
 

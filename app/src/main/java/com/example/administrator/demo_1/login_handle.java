@@ -79,4 +79,16 @@ public class login_handle extends AppCompatActivity {
         Log.v("test","123");
         login_button.setClickable(true);
     }
+
+    public void register(View view){
+        Intent it=new Intent();
+        it.setClass(login_handle.this,register.class);
+        startActivity(it);
+    }
+
+    public void forget(View view){
+        Intent it=new Intent();
+        it.setClass(login_handle.this,forget.class);
+        startActivity(it);
+    }
 }
